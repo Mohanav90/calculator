@@ -1,0 +1,68 @@
+body{
+	margin:0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(#ededed,#f3f3f3),url(./pattern.jpg);
+    background-blend-mode: hard-light;
+    height: 724px;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+section{
+	width: 420px;
+    height: 635px;
+    background: #fff;
+    border-radius: 21px;
+    color: #000;
+    margin: auto;
+    position: relative;
+    top:55px;
+    z-index: 1;
+    box-shadow: 3px 3px 17px 0 rgba(0, 0, 0, 0.29), 0px 1px 5px 0 rgba(0,0,0,0.5);
+    overflow:hidden;
+}
+
+button{
+	    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.32);
+	    	font-weight: 600;
+	    	width: 60px;
+	    	height: 60px;
+}
+button.equal{
+	    width: 165px;
+    font-size: 26px;
+    font-weight: bold;
+}
+#history{
+      text-align: right;
+    /* height: 51px; */
+    font-size: 23px;
+    color: #bebebe;
+    height:40px;
+}
+#output{
+  text-align: right;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: -17px;
+    height:60px;
+}
+#history{
+
+}
+#output{
+
+}
+@media screen and (max-width: 567px){
+	section {
+    width: 94%;
+    margin: auto;
+    display: block;
+}
+}
